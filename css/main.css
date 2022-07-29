@@ -1,0 +1,160 @@
+body {
+  background: #232526;  
+  color: white;
+  /* position: absolute; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  height: 200%;
+  width: 100%;
+}
+
+.container1 {
+  /* position: fixed; */
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10%;
+}
+
+.container2 {
+  margin-top: 10%;
+  /* position: fixed; */
+  top: 50%;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+
+.text-main {
+  position: absolute;
+  width: 34.5%;
+  left: 16%;
+  top: 15%; /*do this later*/
+  padding: 1.5%; /*do this later*/
+}
+
+.text-main>h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 400%;
+  font-stretch:ultra-expanded;
+  font-weight: lighter;
+}
+
+.text-main>h2 {
+  margin-top: -3%;
+  margin-bottom: 3%;
+  padding-top: 0;
+  font-family: 'Caveat', cursive;
+
+  font-size: 270%;
+  font-stretch: ultra-expanded;
+  font-weight: lighter;
+}
+
+.text-main>br {
+  line-height: 10%;
+}
+
+.text-main>p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 125%;
+  font-stretch: wider;
+  line-height: 150%;
+}
+
+.img-st {
+  position: absolute;
+  top: 21%;
+  left: 52.5%;
+  padding: 2%;
+  bottom: 10%;
+}
+
+.img-st>img {
+  border-radius: 50%;
+}
+
+
+
+/* for the links  */
+
+a {
+  text-decoration: none;
+  color: #b8caff;
+}
+
+a:hover {
+  color: white;
+}
+
+/* down arrows */
+
+.down-text {
+  opacity: 50%;
+  position: absolute;
+  bottom: 3.65%;
+  left: 45.4%;
+  margin: 1%;
+  font-family: 'Sora', sans-serif;
+  font-size: small;
+  font-weight:900;
+  font-stretch:ultra-condensed;
+}
+
+.material-symbols-outlined {
+  opacity: 50%;
+  position: absolute;
+  bottom: 0.7%;
+  left: 46.5%;
+  margin: 1%;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/* flatu */
+
+.lineleft {   
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 16%;
+  border-left: 1px dashed #ccc;
+}
+
+.lineright {   
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  right: 16%;
+  border-left: 1px dashed #ccc;
+}
+
+.linetop {   
+  position: absolute;
+  z-index: -1;
+  /* top: 0;
+  bottom: 0; */
+  right: 50%;
+  left: 50%;
+  transform: rotate(-90deg);
+  border-left: 1px dashed rgb(255, 0, 0);
+}
+
+.linedown {   
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;  
+  left: 20%;
+  border-left: 1px dashed rgb(255, 0, 0);
+}
